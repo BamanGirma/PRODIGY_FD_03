@@ -28,7 +28,7 @@ export const categoryInfo = [
     ],
   },
   {
-    title: "Discover fashion ",
+    title: "Women's Clothing",
     name: "women's clothing",
     linkText: "See more",
     items: [
