@@ -1,0 +1,41 @@
+.row-grid {
+   display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns for product cards */
+  gap: 20px; /* Gap between product cards */
+  padding: 20px; /* Padding around the entire grid */
+}
+.row-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.row-card img{
+  width:100%;
+  width: 100%; /* Make the image fill the width of the card */
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.row-card h3{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.row-card a{
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+.row-card a:hover{
+  color: #cD6538;
+}
+.row-card:hover{
+   transform: scale(1.05); /* Slight hover effect */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}

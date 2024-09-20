@@ -21,7 +21,6 @@ function CarouselEffect() {
         </Carousel>
         <div
         className={classes.hero__img}>
-
         </div>
     </div>
   )
