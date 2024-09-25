@@ -5,7 +5,7 @@ import SignUp from './src/Components/Pages/Auth/SignUp'
 import Payment from './src/Components/Pages/Payment/Payment'
 import Orders from './src/Components/Pages/Orders/Orders'
 import Cart from './src/Components/Pages/Cart/Cart'
-import Results from './src/Components/Results/Results'
+import Results from './src/Components/Pages/Results/Results'
 import ProductDetail from './src/Components/Pages/ProductDetail/ProductDetail'
 function Routing() {
   return (

@@ -11,10 +11,10 @@ function Product() {
       .then((res) =>{
         // console.log(res);
         setProducts(res.data);
-        isLoading(false);
+        setIsLoading(false);
       }).catch((err) =>{
         console.log(err);
-        isLoading(false);
+        setIsLoading(false)
       })
       
     }, [])
@@ -24,7 +24,7 @@ function Product() {
       {isLoading ? (<Loader/>) : (
         <section className={classes.products__container}>
           {products.map((singleProduct, i) => {
-            return <ProductCard product={singleProduct} key={i} />;
+            return <ProductCard product={singleProduct} key={i} renderAdd={true} />;
           })}
         </section>
       )}
