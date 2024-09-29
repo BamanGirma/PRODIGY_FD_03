@@ -5,9 +5,11 @@ import { DataContext } from "../../DataProvider/DataProvider";
 import ProductCard from "../../Product/ProductCard";
 import CurrencyFormat from "../../CurrencyFormat/CurrencyFormat";
 import classes from "./Cart.module.css";
-import { Type } from "../../../Utility/action.type";
+// import { Type } from "../../../Utility/action.type";
+import {Type} from '../../../../Utility/action.type'
 import { IoIosArrowUp } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
+import Payments from "../Payments/Payments";
 function Cart() {
   const [{ basket, user }, dispatch] = useContext(DataContext);
 

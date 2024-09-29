@@ -1,6 +1,6 @@
 .row-grid {
    display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Four columns for product cards */
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); /* Four columns for product cards */
   gap: 20px; /* Gap between product cards */
   padding: 20px; /* Padding around the entire grid */
 }

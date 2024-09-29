@@ -108,4 +108,58 @@ export const categoryInfo = [
       },
     ],
   },
+  {
+    title: "Kids Clothing",
+    name: "men's clothing",
+    linkText: "See more",
+    items: [
+      {
+        imgSrc:
+          "https://m.media-amazon.com/images/I/81zLIjN47gL._AC_SX425_.jpg",
+        label: "Shorts",
+      },
+      {
+        imgSrc:
+          "https://m.media-amazon.com/images/I/51w4isFt8vL._AC_SX522_.jpg",
+        label: "Shirts",
+      },
+      {
+        imgSrc:
+          "https://m.media-amazon.com/images/I/71FjBzWp6qL._AC_SX522_.jpg",
+        label: "Pijama",
+      },
+      {
+        imgSrc:
+          "https://m.media-amazon.com/images/I/81o90xYv5uL._AC_SX425_.jpg",
+        label: "Jeans",
+      },
+    ],
+  },
+  {
+    title: "Devices",
+    name: "electronics",
+    linkText: "See more",
+    items: [
+      {
+        imgSrc:
+          "https://m.media-amazon.com/images/I/6134qdrkvaL._AC_SX425_.jpg",
+        label: "Camera",
+      },
+      {
+        imgSrc:
+          "https://m.media-amazon.com/images/I/61vQMQKaPwL._AC_SX569_.jpg",
+        label: "Watches",
+      },
+      {
+        imgSrc:
+          "https://m.media-amazon.com/images/I/71VUOHS-8yL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+        label: "Printer",
+      },
+      {
+        imgSrc:
+          "https://m.media-amazon.com/images/I/815HZLkZfgL._AC_SX522_.jpg",
+        label: "Microphone",
+      },
+    ],
+  },
 ];

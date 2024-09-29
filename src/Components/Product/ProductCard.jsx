@@ -4,7 +4,8 @@ import CurrencyFormat from '../CurrencyFormat/CurrencyFormat'
 import classes from './product.module.css'
 import { Link } from 'react-router-dom'
 import { DataContext } from '../DataProvider/DataProvider'
-import { Type } from '../../Utility/action.type'
+// import { Type } from '../../Utility/action.type'
+import {Type} from '../../../Utility/action.type'
 function ProductCard({ product, flex, renderDescription,renderAdd}) {
   // assign default values in case the destructure elements are missing this is the default value
   const {
