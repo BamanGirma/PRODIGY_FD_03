@@ -7,6 +7,7 @@ import classes from './Header.module.css'
 import LowerHeader from './LowerHeader';
 import { DataContext } from '../DataProvider/DataProvider';
 import {auth} from '../../../Utility/firebase'
+import  logo from './GEBEYA-04-04.png'
 function Header() {
 
   const [{user,basket},dispatch] = useContext(DataContext)
@@ -24,8 +25,8 @@ function Header() {
           <div className={classes.logo__container}>
             <Link to="/">
               <img
-                src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
-                alt="amazon logo"
+                src={logo}
+                alt="gebeyalogo"
               />
             </Link>
             {/* delivery container*/}
